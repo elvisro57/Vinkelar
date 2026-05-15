@@ -22,10 +22,13 @@
     <!-- Header / Navbar -->
     <header class="navbar">
         <div class="container nav-content">
-            <div class="logo">
+            <a href="index.html" class="logo" style="text-decoration: none;">
                 Vinkelar<span class="gold"> Assessoria</span>
+            </a>
+            <div class="nav-links">
+                <a href="portfolio.html" class="nav-link">Portfólio</a>
+                <a href="https://wa.me/554598149220" class="btn-outline" target="_blank">Falar com Consultor</a>
             </div>
-            <a href="https://wa.me/554598149220" class="btn-outline" target="_blank">Falar com Consultor</a>
         </div>
     </header>
 
@@ -172,33 +175,27 @@
                 <p>Veja os resultados que nossos clientes conquistaram com a nossa assessoria.</p>
             </div>
             
-            <div class="testimonial-grid fade-up">
-                <div class="testimonial-card">
-                    <div class="stars">
-                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+            <div class="carousel-container fade-up">
+                <div class="carousel-wrapper" id="prints-carousel">
+                    <div class="carousel-slide">
+                        <img src="assets/images/RESULTADOS (1).png" alt="Print de Resultado 1" class="print-img">
                     </div>
-                    <p class="quote">"Aumento de 200% nos contatos pelo WhatsApp no primeiro mês. Finalmente meu marketing está dando lucro de verdade."</p>
-                    <div class="client-info">
-                        <div class="client-avatar">E</div>
-                        <div>
-                            <strong>Eduardo Silva</strong>
-                            <span>CEO, Clínica de Estética</span>
-                        </div>
+                    <div class="carousel-slide">
+                        <img src="assets/images/RESULTADOS (2).png" alt="Print de Resultado 2" class="print-img">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/images/RESULTADOS (3).png" alt="Print de Resultado 3" class="print-img">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/images/RESULTADOS (4).png" alt="Print de Resultado 4" class="print-img">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/images/RESULTADOS (5).png" alt="Print de Resultado 5" class="print-img">
                     </div>
                 </div>
-
-                <div class="testimonial-card">
-                    <div class="stars">
-                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
-                    </div>
-                    <p class="quote">"A melhor decisão que tomamos. Profissionalismo incrível e uma estratégia muito clara. Hoje nossa equipe comercial não para."</p>
-                    <div class="client-info">
-                        <div class="client-avatar">M</div>
-                        <div>
-                            <strong>Mariana Costa</strong>
-                            <span>Diretora Comercial, Escritório de Advocacia</span>
-                        </div>
-                    </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev-btn" id="prev-print" aria-label="Anterior"><i class="ph ph-caret-left"></i></button>
+                    <button class="carousel-btn next-btn" id="next-print" aria-label="Próximo"><i class="ph ph-caret-right"></i></button>
                 </div>
             </div>
         </div>
